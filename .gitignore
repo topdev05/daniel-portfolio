@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.local
+.tools
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local extracts
+requirements/manual_extracted.txt
+requirements/pagina_web_extracted.txt
+requirements/pdf_previews
+
+# Client source materials (large; keep local only)
+requirements/
+
+# Local SSH keys (never commit)
+.ssh-github/
+
+# Large source PNGs kept locally (optimized webp is used in app)
+public/images/sections/Imagen Servicios Lead4you.png
+public/images/sections/Crecimiento grafica.jpg
+
+
+# Helper scripts that point to local absolute paths (optional keep)
+# use-tools.sh and start-dev.sh are fine to commit
+
+.ssh-github
