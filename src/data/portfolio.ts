@@ -134,7 +134,7 @@ export const PROJECTS: Project[] = [
     stack: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js', 'PostgreSQL'],
     status: ['Featured', 'Completed'],
     url: 'https://www.umamicart.com/',
-    image: '/images/projects/umamicart.jpg?v=2',
+    image: '/images/projects/umamicart.jpg?v=3',
   },
   {
     id: 'bombas',
@@ -146,7 +146,7 @@ export const PROJECTS: Project[] = [
     stack: ['React', 'TypeScript', 'Node.js', 'Express.js', 'MySQL', 'Stripe', 'AWS'],
     status: ['Featured', 'Completed'],
     url: 'https://bombas.com/',
-    image: '/images/projects/bombas.jpg?v=2',
+    image: '/images/projects/bombas.jpg?v=3',
   },
   {
     id: 'caraway',
