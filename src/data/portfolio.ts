@@ -196,6 +196,66 @@ export const PROJECTS: Project[] = [
     url: 'https://muchik-estudi-cabanyal.lovable.app/',
     image: '/images/projects/muchik-estudi.jpg?v=1',
   },
+  {
+    id: 'carsandbids',
+    title: 'Cars & Bids',
+    summary:
+      'Online auction marketplace for modern enthusiast cars with live bidding and seller tools.',
+    description:
+      'High-traffic vehicle auction platform — live listings, search/filters by make and model, featured auctions, watch lists, and sell-a-car flows built around photography-forward discovery and real-time bid status.',
+    stack: ['React', 'Next.js', 'TypeScript', 'Node.js', 'PostgreSQL', 'AWS'],
+    status: ['Featured', 'Completed'],
+    url: 'https://carsandbids.com/',
+    image: '/images/projects/carsandbids.jpg?v=1',
+  },
+  {
+    id: 'anthrotek',
+    title: 'AnthroTek',
+    summary:
+      'Cambridge medtech site for silicone anatomical models, device testing, and simulation solutions.',
+    description:
+      'Marketing and product site for AnthroTek — soft polymer R&D storytelling, sector pages (simulation, SkinTech, lab training), project showcases, process steps, and quote capture for device manufacturers and research partners.',
+    stack: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'CMS'],
+    status: ['Featured', 'Completed'],
+    url: 'https://anthrotek.com/',
+    image: '/images/projects/anthrotek.jpg?v=1',
+  },
+  {
+    id: 'foxfolio',
+    title: 'Foxfolio',
+    summary:
+      'Premium agency portfolio template with bold motion, featured works, and conversion-focused CTAs.',
+    description:
+      'Framer-based creative portfolio — immersive hero, showreel and case studies, service storytelling, transparent pricing, testimonials, and enquiry flows for digital design and brand identity studios.',
+    stack: ['Framer', 'React', 'TypeScript', 'Motion'],
+    status: ['Featured', 'Completed'],
+    url: 'https://foxfolio.framer.website/',
+    image: '/images/projects/foxfolio.jpg?v=1',
+  },
+  {
+    id: 'useflora',
+    title: 'FloraMax',
+    summary:
+      'Brazilian fragrance e-commerce for body splash, perfumes, and kits with nationwide delivery.',
+    description:
+      'Shopify-style storefront for FloraMax — promotional hero campaigns, product collections (iconic kits, feminine/masculine fragrances), trust badges, reviews, and conversion-focused product/kit merchandising across Brazil.',
+    stack: ['React', 'Shopify', 'JavaScript', 'Liquid', 'CSS'],
+    status: ['Featured', 'Completed'],
+    url: 'https://useflora.com.br/',
+    image: '/images/projects/useflora.jpg?v=1',
+  },
+  {
+    id: 'dianarq',
+    title: 'DIANARQ',
+    summary:
+      'Madrid boutique studio for personalized online interior design, remodeling, and 3D visualization.',
+    description:
+      'Remote architecture and interior design site — residential, commercial, and corporate renovation services, coastal/Hamptons-inspired portfolio, testimonials, blog content, and contact/quote flows for clients worldwide.',
+    stack: ['WordPress', 'PHP', 'JavaScript', 'CSS', 'CMS'],
+    status: ['Featured', 'Completed'],
+    url: 'https://dianarq.com/',
+    image: '/images/projects/dianarq.jpg?v=1',
+  },
 ]
 
 export const EXPERIENCE: Experience[] = [
