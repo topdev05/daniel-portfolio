@@ -172,6 +172,30 @@ export const PROJECTS: Project[] = [
     url: 'https://lead4you.com.mx/',
     image: '/images/projects/lead4you.jpg?v=1',
   },
+  {
+    id: 'masbimstudio',
+    title: 'MASBIM Studio',
+    summary:
+      'Scan to BIM, MEP coordination, DfMA, and as-built delivery for architecture and construction teams.',
+    description:
+      'Corporate site for a BIM studio based in A Coruña — service storytelling from point clouds to as-built, project case studies across Europe and the Americas, multilingual presence, and clear contact paths for constructors, engineers, and developers.',
+    stack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'CMS'],
+    status: ['Featured', 'Completed'],
+    url: 'https://masbimstudio.es/',
+    image: '/images/projects/masbimstudio.jpg?v=1',
+  },
+  {
+    id: 'muchik-estudi',
+    title: 'Muchik Estudí',
+    summary:
+      'Architecture and interior design studio in Valencia’s Cabanyal, focused on Mediterranean renovations.',
+    description:
+      'Marketing site for renovations, rehabilitation, façade restoration, interior design, permits, and BIM consultancy — bilingual content, project portfolio, studio story, and lead-capture contact flows rooted in Cabanyal heritage.',
+    stack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+    status: ['Featured', 'Completed'],
+    url: 'https://muchik-estudi-cabanyal.lovable.app/',
+    image: '/images/projects/muchik-estudi.jpg?v=1',
+  },
 ]
 
 export const EXPERIENCE: Experience[] = [

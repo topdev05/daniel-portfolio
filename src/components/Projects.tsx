@@ -26,8 +26,8 @@ export function Projects() {
             Featured projects
           </h2>
           <p className="mt-4 text-mist">
-            Selected e-commerce and content platforms spanning grocery, culinary, apparel, and home
-            goods.
+            Selected e-commerce, content, and architecture platforms — from grocery and apparel to
+            BIM studios and Mediterranean design practices.
           </p>
         </div>
 

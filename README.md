@@ -2,7 +2,7 @@
 
 Personal portfolio for **Daniel Bianca Guardado Henríquez**, Full Stack Developer.
 
-Structure mirrors a modern single-page developer portfolio (About, Skills, Projects, Work, Education, Contact).
+Repo: [github.com/topdev05/daniel-portfolio](https://github.com/topdev05/daniel-portfolio)
 
 ## Stack
 
@@ -11,26 +11,47 @@ Structure mirrors a modern single-page developer portfolio (About, Skills, Proje
 
 ## Run locally
 
-From this folder:
+Requires **Node.js 18+**.
 
 ```bash
-# if node_modules is not linked yet
-ln -s ../node_modules node_modules   # or: npm install
-
-npx vite --host 127.0.0.1 --port 5174
+cd daniel-portfolio
+npm install
+npm run dev
 ```
 
-Or from the parent repo tools path:
+Open the URL Vite prints (usually http://127.0.0.1:5173/).
 
 ```bash
-export PATH="../.tools/bin:$PATH"
-export NODE_PATH="/usr/share/nodejs"
-npx vite --host 127.0.0.1 --port 5174
+npm run build      # production → dist/
+npm run preview    # preview built site
 ```
-
-Open http://127.0.0.1:5174
 
 ## Edit content
 
-All copy lives in `src/data/portfolio.ts`.  
-Avatar: `public/images/avatar.png`.
+| Content | File |
+|---------|------|
+| Bio, email, GitHub, skills, projects, work, education | `src/data/portfolio.ts` |
+| Avatar | `public/images/avatar.png` |
+| Project card images | `public/images/projects/` |
+
+After replacing an image, bump the `?v=` query on that path in `portfolio.ts` (cache bust).
+
+## Sections
+
+1. Hero / About  
+2. Skills (filterable cards with proficiency)  
+3. Projects (Planet Organic, UmamiCart, Bombas, Caraway, Lead4You, MASBIM Studio, Muchik Estudí)  
+4. Work experience  
+5. Education  
+6. Contact  
+
+## For AI assistants / new chats
+
+Cursor chat history is **not** included when you clone or copy this folder.
+
+Read **`AGENTS.md`** in this repo for full project context, conventions, and edit map.  
+There is also `.cursor/rules/portfolio.mdc` for always-on agent guidance in Cursor.
+
+## Deploy
+
+`vercel.json` is included for Vercel static hosting of the Vite build.
