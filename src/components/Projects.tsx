@@ -44,11 +44,11 @@ export function Projects() {
           ))}
         </div>
 
-        <div className="grid gap-6 lg:grid-cols-2">
+        <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
           {visible.map((project) => (
             <article
               key={project.id}
-              className="group overflow-hidden rounded-2xl border border-line bg-white shadow-[0_12px_32px_rgba(20,35,27,0.06)] transition hover:-translate-y-1 hover:shadow-[0_20px_44px_rgba(20,35,27,0.1)]"
+              className="group flex flex-col overflow-hidden rounded-2xl border border-line bg-white shadow-[0_12px_32px_rgba(20,35,27,0.06)] transition hover:-translate-y-1 hover:shadow-[0_20px_44px_rgba(20,35,27,0.1)]"
             >
               <a
                 href={project.url}
@@ -66,12 +66,12 @@ export function Projects() {
                   className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/55 via-ink/10 to-transparent"
                   aria-hidden
                 />
-                <div className="absolute inset-x-0 bottom-0 p-4 sm:p-5">
-                  <div className="flex flex-wrap gap-2">
+                <div className="absolute inset-x-0 bottom-0 p-3">
+                  <div className="flex flex-wrap gap-1.5">
                     {project.status.map((status) => (
                       <span
                         key={status}
-                        className="rounded-full bg-white/90 px-2.5 py-0.5 text-[11px] font-semibold tracking-wide text-ink uppercase shadow-sm backdrop-blur-sm"
+                        className="rounded-full bg-white/90 px-2 py-0.5 text-[10px] font-semibold tracking-wide text-ink uppercase shadow-sm backdrop-blur-sm"
                       >
                         {status}
                       </span>
@@ -80,21 +80,18 @@ export function Projects() {
                 </div>
               </a>
 
-              <div className="bg-white p-5 sm:p-6">
-                <h3 className="font-display text-2xl font-semibold tracking-tight text-ink">
+              <div className="flex flex-1 flex-col bg-white p-4">
+                <h3 className="font-display text-lg font-semibold tracking-tight text-ink sm:text-xl">
                   {project.title}
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed text-mist sm:text-base">
+                <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-mist">
                   {project.summary}
                 </p>
-                <p className="mt-3 hidden text-sm leading-relaxed text-mist/90 sm:block">
-                  {project.description}
-                </p>
-                <ul className="mt-4 flex flex-wrap gap-2">
-                  {project.stack.map((tech) => (
+                <ul className="mt-3 flex flex-wrap gap-1.5">
+                  {project.stack.slice(0, 4).map((tech) => (
                     <li
                       key={tech}
-                      className="rounded-md bg-ink-soft px-2.5 py-1 text-xs font-medium text-accent"
+                      className="rounded-md bg-ink-soft px-2 py-0.5 text-[11px] font-medium text-accent"
                     >
                       {tech}
                     </li>
@@ -104,7 +101,7 @@ export function Projects() {
                   href={project.url}
                   target="_blank"
                   rel="noreferrer"
-                  className="mt-5 inline-flex text-sm font-semibold text-accent transition group-hover:text-accent-soft"
+                  className="mt-auto inline-flex pt-4 text-sm font-semibold text-accent transition group-hover:text-accent-soft"
                 >
                   Visit →
                 </a>
