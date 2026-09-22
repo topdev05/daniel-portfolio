@@ -256,6 +256,42 @@ export const PROJECTS: Project[] = [
     url: 'https://dianarq.com/',
     image: '/images/projects/dianarq.jpg?v=1',
   },
+  {
+    id: 'onri',
+    title: 'Onri',
+    summary:
+      'Shift scheduling SaaS for small restaurants and cafes — schedules, availability, and shift changes.',
+    description:
+      'Product marketing site for Onri — bilingual (EN/KO) positioning, visual schedule builder demos, availability and swap flows, mobile-first staff experience, and early-access signup for food-service teams.',
+    stack: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'SaaS'],
+    status: ['Featured', 'Completed'],
+    url: 'https://www.onri.app/',
+    image: '/images/projects/onri.jpg?v=1',
+  },
+  {
+    id: 'shopline',
+    title: 'SHOPLINE',
+    summary:
+      'Global ecommerce platform for online stores, social commerce, subscriptions, and omnichannel retail.',
+    description:
+      'Commerce growth site covering store builder, social commerce, POS, loyalty, SmartPush marketing, marketplace connectors, and conversion-focused product storytelling for merchants scaling worldwide.',
+    stack: ['React', 'TypeScript', 'Node.js', 'Cloud', 'Ecommerce'],
+    status: ['Featured', 'Completed'],
+    url: 'https://www.shopline.com/',
+    image: '/images/projects/shopline.jpg?v=1',
+  },
+  {
+    id: 'shopify-apps',
+    title: 'Shopify App Store',
+    summary:
+      'Shopify’s marketplace for merchant apps across sales, marketing, fulfillment, and store management.',
+    description:
+      'App discovery experience with Built for Shopify highlights, category browsing, ratings/reviews, featured collections, and install flows that help merchants extend storefronts and operations.',
+    stack: ['React', 'Ruby', 'GraphQL', 'Shopify', 'Cloud'],
+    status: ['Featured', 'Completed'],
+    url: 'https://apps.shopify.com/',
+    image: '/images/projects/shopify-apps.jpg?v=1',
+  },
 ]
 
 export const EXPERIENCE: Experience[] = [
